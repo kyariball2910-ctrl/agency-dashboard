@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #18181b;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+.text-muted-foreground {
+  color: #71717a;
+}
+
+.bg-muted {
+  background-color: #f4f4f5;
+}
